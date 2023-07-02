@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url('../../assets/fonts/Product\ Sans\ Bold.ttf');
+}
+
+.todo{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    all: unset;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    display: block;
+    width: 215px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(100deg, #A18CD1, #FBC2EB);
+    border: none;
+    border-radius: 10px;
+  }
+
+.label::placeholder{
+    position: relative;
+    left: 3vw;
+    color: black;
+    font-family: "Product Sans";
+    font-size: 20px;
+}
+.label2{
+    display: flex;
+    justify-content: center;
+    all: unset;
+    position: absolute;
+    top: 20px;
+    left: 17vw;
+    display: block;
+    width: 172px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(100deg, #A18CD1, #FBC2EB);
+    border: none;
+    border-radius: 10px;
+}
+.label2::placeholder{
+    position: relative;
+    left: 2.5vw;
+    color: black;
+    font-family: "Product Sans";
+    font-size: 20px;
+}
+
+.label3{
+    display: flex;
+    justify-content: center;
+    all: unset;
+    position: absolute;
+    top: 80px;
+    left: 3.3vw;
+    display: block;
+    width: 430px;
+    height: calc(9.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(100deg, #A18CD1, #FBC2EB);
+    border: none;
+    border-radius: 10px;
+}
+.label3::placeholder{
+    position: relative;
+    left: 8.45rem;
+    color: black;
+    font-family: "Product Sans";
+    font-size: 20px;
+}
+
+.label:focus::placeholder, .label2:focus::placeholder,.label3:focus::placeholder{
+    color: transparent;
+}
+.center{
+    position: relative;
+    top: 48vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    position: relative;
+    bottom: 40vh;
+}
+.block{
+    position: absolute;
+    bottom: 70px;
+    border-radius: 38px;
+    width: 600px;
+    height: 260px;
+    background-color: black;
+}
+.todoska{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    position: absolute;
+    width: 720px;
+    height: 80px;
+    background-color: black;
+    border-radius: 10px;
+    bottom: -66vh;
+    left: 30.5vw;
+}
+.cofee{
+    position: relative;
+    right: 25vh;
+}
+.delete{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    all: unset;
+    position: absolute;
+    top: 15px;
+    left: 27vw;
+    display: block;
+    width: 172px;
+    height: calc(2.20rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(100deg, #A18CD1, #FBC2EB);
+    border: none;
+    border-radius: 10px;
+}

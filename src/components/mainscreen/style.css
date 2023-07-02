@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url('../../assets/fonts/Product\ Sans\ Bold.ttf');
+}
+
+
+.main{
+    background-color: #1D1D1D;
+    width: 100%;
+    height: 98.1vh;
+}
+.circle{
+    position: absolute;
+    left: 73vw;
+    height: 100%;
+    top: 0px;
+}
+.logo{
+    position: relative;
+    left: 30vw;
+    top: 35vh;
+}
+.subtitle{
+    font-family: 'Product Sans';
+    color: #fff;
+    position: relative;
+    font-size: 40px;
+    left: 28vw;
+    top: 35vh;
+}
+.arrow{
+    position: absolute;
+    left: 37vw;
+    top: 80vh;
+    width: 60px;
+    color: #fff;
+
+
+}
